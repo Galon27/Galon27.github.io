@@ -3,7 +3,8 @@
 
 body {
 	font-family: 'Indie Flower', cursive !important;
-  background: #7400bc; /*CAPE HONEY*/
+	background: #7400bc;
+	/*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
 }
@@ -18,12 +19,20 @@ h4 {
 	font-family: 'Amatic SC', cursive !important;
 }
 
-.color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
-.color2{color:#C0392B/*TALL POPPY*/}
+.color1 {
+	color: #1BBC9B
+}
+
+/*MOUNTAIN MEADOW*/
+.color2 {
+	color: #C0392B
+		/*TALL POPPY*/
+}
 
 
 .card {
-	color: #013243; /*SHERPA BLUE*/
+	color: #013243;
+	/*SHERPA BLUE*/
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -31,18 +40,18 @@ h4 {
 	height: 400px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
-	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	transform: translate(-50%, -50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 20px 0 60px rgba(0, 0, 0, .5);
 	transition: 1s;
 }
 
 .card:hover {
-	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
-	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+	transform: translate(-50%, -50%) perspective(2000px) rotate(15deg) scale(1.2);
+	box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
 }
 
 .card:before {
-	content:'';
+	content: '';
 	position: absolute;
 	top: -5px;
 	left: 0;
@@ -94,7 +103,7 @@ h4 {
 .card:hover .bark {
 	opacity: 1;
 	transition: .6s;
-  box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
+	box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
 }
 
 .card .details {
@@ -104,14 +113,14 @@ h4 {
 	box-sizing: border-box;
 	padding: 0 0 0 10px;
 	z-index: -1;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .card .details p {
 	font-size: 15px;
 	line-height: 5px;
 	transform: rotate(-10deg);
-	padding: 0 0 0 20px;
+	padding: 0 0 0 16px;
 }
 
 .card .details h4 {
@@ -120,4 +129,8 @@ h4 {
 
 .text-right {
 	text-align: right;
+}
+
+.margin{
+	margin-top: 40px;
 }
